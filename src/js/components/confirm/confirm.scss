@@ -1,0 +1,56 @@
+/* 弹出层 begin */
+.mark{
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index: 1;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+
+}
+.view{
+}
+.view-confirm{
+  width: 2.9rem;
+  background:#fff;
+  border-radius: .08rem;
+  position:fixed;
+  left:50%;
+  top:50%;
+  -webkit-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+  z-index: 2;
+}
+.view-confirm-header h3{
+  padding: .15rem 0 0 .18rem;
+  font-size: .15rem;
+  color: #2f87de;
+}
+.view-confirm-body{
+  padding: .22rem 0 .5rem .72rem;
+  font-size: .15rem;
+  color:#999;
+}
+.view-confirm-footer{
+  height: .32rem;
+  display: -webkit-box;
+  display: box;
+  padding: 0 .29rem;
+  -webkit-box-pack:justify;
+  box-pack:justify;
+}
+.view-confirm-footer a{
+  display:block;
+  width: 1.1rem;
+  height: 32px;
+  line-height: 33px;
+  text-align:center;
+  font-size: 18px;
+  color:#fff;
+  background: #2f87de;
+  border-radius: 4px;
+}
+/* 弹出层end */

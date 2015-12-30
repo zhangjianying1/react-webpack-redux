@@ -1,0 +1,74 @@
+.user-msg{
+    padding: .08rem .15rem .1rem;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+.user-msg img.user-photo {
+    width: .62rem;
+}
+.user-msg .user-name{
+    padding-left: .18rem;
+    line-height: .62rem;
+    font-size: .17rem;
+}
+.modify-btn{
+    float: right;
+    line-height: .62rem;
+    font-size: .17rem;
+}
+.user-setting{
+    margin-top: .1rem;
+    border-top: 1px solid #eee;
+}
+.setting-list li{
+    border-bottom: 1px solid #eee;
+    height: .45rem;
+    line-height: .45rem;
+    font-size: .17rem;
+    color: #333;
+}
+.setting-list li a{
+    display: block;
+}
+.setting-list li:active{
+    background: #f7f7f7;
+}
+.setting-box{
+    overflow: hidden;
+}
+.setting-box .setting-icon{
+    float: left;
+    width: .45rem;
+    height: .45rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: .29rem;
+}
+.set-psd{
+    background-image: url(../images/user-center-psd.png);
+}
+.set-phone{
+    background-image: url(../images/user-center-phone.png);
+}
+.set-realname{
+    background-image: url(../images/user-center-user.png);
+}
+.setting-name{
+    padding-left: .02rem;
+}
+.show-status {
+    float: right;
+    margin-right: .2rem;
+    color: #999;
+}
+.modify-tele{
+    padding: .1rem 0 0 .12rem;
+    font-size: .12rem;
+    color: #999;
+}
+.modify-tele a{
+    color: #333;
+}
+.user-center-btn{
+    padding: .83rem .14rem 0;
+}

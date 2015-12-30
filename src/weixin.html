@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+</head>
+<body>
+<div id="d">
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+<div>辅导费<br></div>
+    </div>
+<script>
+    var oDiv = document.querySelector('#d');
+    var h = 0;
+    var scrollH = 0;
+    document.addEventListener('touchstart', function(e){
+
+        h = e.touches[0].pageY;
+
+    }, false)
+    document.addEventListener('touchmove', function(e){
+        scrollH = e.touches[0].pageY - h;
+        console.log(scrollH)
+        oDiv.style.WebkitTransform = 'translate3d(0,' + scrollH +'px, 0)'
+
+    }, false)
+</script>
+</body>
+
+
+</html>

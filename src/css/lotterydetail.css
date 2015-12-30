@@ -1,0 +1,122 @@
+/* 彩票详情页 */
+.lottery-detail{
+}
+.lottery-detail .lottery-tit {
+    padding-top:0;
+    font-size: .15rem;
+}
+
+.lottery-detail .lottery-date{
+    font-size: .13rem;
+    color: #666;
+}
+.lottery-detail .lottery-result{
+    padding: .04rem 0 .14rem .12rem;
+}
+.lottery-sale{
+
+}
+.lottery-sale .sale-tit, .lottery-sale .sale-price{
+    display: -webkit-box;
+    display: box;
+    line-height: .3rem;
+    font-size: .15rem;
+    color: #333;
+    text-align: center;
+}
+.lottery-sale .sale-tit{
+    background: #f3f3f3;
+}
+.lottery-sale span{
+    display: block;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.lottery-sale .sale-price{
+    color: #dd171b;
+}
+/* 大乐透 */
+.win-tit{
+    display: -webkit-box;
+    display: box;
+    line-height: .3rem;
+    background: #f3f3f3;
+    text-align: center;
+}
+.win-tit span{
+    display: block;
+}
+.big-happy .win-tit span:first-child, .big-happy .win-body div:first-child{
+    width: 20%;
+}
+.big-happy .win-tit span:nth-of-type(2), .big-happy .win-body div:nth-of-type(2){
+    width: 10%;
+}
+.big-happy .win-tit span:nth-of-type(3), .big-happy .win-body div:nth-of-type(3){
+    width: 30%;
+}
+.big-happy .win-tit span:nth-of-type(4), .big-happy .win-body div:nth-of-type(4){
+    width: 40%;
+}
+.big-happy .win-tit span:nth-of-type(4){
+    padding-right: .2rem;
+    text-align: right;
+}
+.big-happy .win-body{
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    box-align: center;
+    text-align: center;
+    font-size: .14rem;
+    color: #333;
+    background: #f0f0f0;
+}
+
+.big-happy .win-body div span{
+    display: block;
+    line-height: .2rem;
+    font-size: .12rem;
+}
+.big-happy .win-body div:nth-of-type(4) span{
+    padding-right: .2rem;
+    text-align: right;
+    color: #dd171b;
+}
+.big-happy .win-body div span:nth-of-type(1) {
+    background: #fff;
+}
+.big-happy .win-body div span:nth-of-type(2) {
+    background: #f7f7f7;
+}
+/* 双色球 */
+.even-colorball .win-tit span:first-child, .even-colorball .win-body div:first-child{
+    width: 30%;
+}
+.even-colorball .win-tit span:nth-of-type(2), .even-colorball .win-body div:nth-of-type(2){
+    width: 30%;
+}
+.even-colorball .win-tit span:nth-of-type(3), .even-colorball .win-body div:nth-of-type(3){
+    width: 40%;
+}
+
+.even-colorball .win-body{
+    display: -webkit-box;
+    display: box;
+    -webkit-box-pack: center;
+    box-pack: center;
+    -webkit-box-align: center;
+    box-align: center;
+    text-align: center;
+    font-size: .14rem;
+    color: #333;
+    background: #fff;
+}
+
+.even-colorball .win-body div {
+    display: block;
+    line-height: .3rem;
+    font-size: .12rem;
+}

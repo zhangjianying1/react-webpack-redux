@@ -1,0 +1,105 @@
+body{
+  height:100%;
+  overflow:hidden;
+}
+#exchangecoupon{
+  height:100%;
+}
+.coupon{
+  padding: 0 .2rem;
+}
+.coupon-img{
+  width:100%;
+  height: .81rem;
+  margin-top: .1rem;
+  background-image:url(../../../images/coupon.png);
+  background-size: 100%;
+}
+.coupon-img .coupon-tit{
+  display: -webkit-box;
+  display: box;
+  width: 10.9%;
+  height: .81rem;
+  float:left;
+  -webkit-box-pack:center;
+  box-pack:center;
+  -webkit-box-align:center;
+  box-align:center;
+  -webkit-box-orient:vertical;
+  box-orient:vertical;
+}
+.coupon-img .coupon-tit em{
+  display:block;
+  -webkit-flex:1;
+  flex:1;
+}
+.coupon-img .coupon-code{
+  width: 89.1%;
+  padding-left: 18%;
+  line-height: .81rem;
+  float:left;
+  color:#fff;
+  font-size: .22rem;
+  text-shadow: 0 2px 1px #720101;
+}
+.coupon-status{
+  text-align:center;
+}
+.coupon-status .show-status{
+  padding: .08rem 0;
+  font-size: .17rem;
+  color:#333;
+}
+.coupon-status .coupon-code{
+  font-size: .14rem;
+  color:#999;
+}
+
+.exchange-btns{
+  width:100%;
+  padding: .3rem .2rem 0;
+  position:fixed;
+  left:0;
+  bottom: .3rem;;
+}
+.coupon-exchange-success{
+  width:100%;
+  z-index:1;
+  position:absolute;
+  left:0;
+  top:0;
+  background:#fff;
+}
+.show-success{
+  padding-top: .38rem;
+  text-align:center;
+}
+.icon-success, .icon-failure{
+  display:inline-block;
+  width: .55rem;
+  height: .55rem;
+  margin-bottom: .13rem;
+  background-image: url(../../../images/success.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.icon-failure{
+  background-image:url(../../../images/failure.png);
+  background-size: 100%;
+}
+.font-19-333{
+  font-size: .19rem;
+  color:#333;
+}
+.success-text{
+  font-size: .15rem;
+  color:#999;
+}
+.success-price{
+  padding-top: .3rem;
+  font-size: .45rem;
+  color:#333;
+}
+.success-price b{
+  font-size: .18rem;
+}

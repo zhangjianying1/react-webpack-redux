@@ -1,0 +1,8 @@
+.call-service{
+    padding-top: .32rem;
+}
+.call-service p{
+    line-height: .42rem;
+    font-size: .15rem;
+    color: #666;
+}

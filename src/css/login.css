@@ -1,0 +1,21 @@
+.login{
+    padding: .06rem .3rem 0;
+}
+.icon-user{
+    background-image: url(../images/user.png);
+}
+.icon-psd{
+    background-image: url(../images/lock.png);
+}
+.l-input .form-control input::-webkit-input-placeholder{
+    color: #aaa;
+}
+
+.login .find-psd{
+    padding: .1rem 0 .2rem .08rem;
+    font-size: .12rem;
+    color: #aaa;
+}
+.login .btn-border-green{
+    margin-top: .15rem;
+}

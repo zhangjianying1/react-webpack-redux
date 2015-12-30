@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# VERSION
+
+CACHE:
+/weixin/js/common.js
+/weixin/css/base.css
+NETWORK:
+*
+/weixin/index.html
+
